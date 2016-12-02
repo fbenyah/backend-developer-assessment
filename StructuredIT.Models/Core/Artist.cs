@@ -24,6 +24,6 @@ namespace StructuredIT.Models.Core
         [StringLength(3)]
         public string CountryCode { get; set; }
         
-        public string Aliases { get; set; }
+        public List<string> Aliases { get; set; }
     }
 }
